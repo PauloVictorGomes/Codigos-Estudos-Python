@@ -8,7 +8,7 @@ while True:
     resp = total % 2    #resposta usada para saber se é par ou impar
     op = ' '
     while op not in 'PI': #Laço usado para só aceitar P(par) ou I(impar) como OPção de escolha
-        op = str(input('PAR ou ÍMPAR?[P|I]  ')).strip().upper()[0]
+        op = str(input('PAR ou ÍMPAR?[P|I]  ')).strip().upper()[0] # retirando espaços e pegando somente a primeira letra
     print(f'Você jogou {jogador} e o computador {computador}. Total de  {total} ',end='') # exibir escolha dos números
 
     print('\n\nDEU PAR\n' if resp == 0 else '\n\nDEU ÍMPAR\n')#se o RESP estiver com 0, a soma dos valores deu par senão deu ímpar
