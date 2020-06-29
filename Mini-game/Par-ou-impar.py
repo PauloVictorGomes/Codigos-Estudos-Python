@@ -12,15 +12,15 @@ while True:
     print(f'Você jogou {jogador} e o computador {computador}. Total de  {total} ',end='') # exibir escolha dos números
 
     print('\n\nDEU PAR\n' if resp == 0 else '\n\nDEU ÍMPAR\n')#se o RESP estiver com 0, a soma dos valores deu par senão deu ímpar
-    if op == 'P':
-        if resp == 0:
+    if op == 'P': #se P em OP, deu par
+        if resp == 0: #Se o resto da divisão  por 2 dos números escolhidos for 0, deu par
             print('Você ganhou\n')
             v += 1  #contador de vitórias
         else:
             print('GAME OVER!')
             break
-    elif op == 'I':
-        if resp == 1:
+    elif op == 'I': #se I em OP, deu impar
+        if resp == 1:#Se o resto da divisão por 2 dos números escolhidos for 1 , deu impar
             print('Você ganhou!\n')
             v += 1  #contador de vitórias
         else:
