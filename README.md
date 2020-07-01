@@ -1,6 +1,6 @@
 # Códigos de estudos para Python
- Alguns dos Códigos usados para o estudo de Python!
+ Alguns dos Códigos usados no aprendizado de Python!
 
- Exercicíos, mini-games e testes.
+ Exercicíos, mini-games, projetos, testes...
  
  
