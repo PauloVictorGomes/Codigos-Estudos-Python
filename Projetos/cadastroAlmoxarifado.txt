@@ -1,0 +1,4 @@
+100;Caneta;0.8
+300;Borracha;1.0
+400;Caderno;18.5
+10;Apontador;0.5
